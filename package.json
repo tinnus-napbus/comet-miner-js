@@ -1,0 +1,27 @@
+{
+  "name": "comet-miner-js",
+  "version": "1.0.0",
+  "description": "JavaScript reimplementation of Urbit comet mining",
+  "type": "module",
+  "main": "./src/cometMiner.js",
+  "bin": {
+    "comet-miner": "./bin/comet-miner.js"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "test": "node --test test/*.test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@noble/curves": "^2.0.1",
+    "@urbit/aura": "^3.0.0",
+    "@urbit/nockjs": "^1.6.0",
+    "urbit-ob": "^5.0.1"
+  },
+  "devDependencies": {
+    "vite": "^5.4.19"
+  }
+}
